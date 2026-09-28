@@ -1,0 +1,58 @@
+/* Selector de etiquetas */
+h2 {
+    color: rgb(107, 148, 196);
+    font-size: 20px;
+}
+
+/* Selector de clases */
+
+.parrafo {
+    color: rgb(108, 38, 173);
+    font-size: large;
+}
+
+#cita {
+    color: rgb(169, 53, 30);
+    font-size: 60px;
+}
+
+header {
+    background-color: rgb(240, 240, 244);
+    padding: 10px;
+   text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20;
+    font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+a:hover{
+    color: rgb(217, 139, 224);
+    background-color: rgb(0, 153, 255);
+    border-radius: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
